@@ -1,0 +1,21 @@
+# Environment & Python artifacts
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+venv/
+env/
+.env
+
+# Large temporary & system files
+*.zip
+*.rar
+*.tar.gz
+~$*
+*.log
+
+# Build & compiled outputs
+build/
+dist/
+*.spec

@@ -1,0 +1,39 @@
+# Applied AI and Data Science Portfolio Dependencies
+
+# Core Scientific Computing
+numpy>=1.23.0
+pandas>=1.5.0
+scipy>=1.9.0
+openpyxl>=3.0.0
+
+# Machine Learning & Statistical Modeling
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+statsmodels>=0.13.0
+joblib>=1.2.0
+
+# Deep Learning Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+tensorflow>=2.11.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.7.0
+pillow>=9.4.0
+scikit-image>=0.20.0
+
+# Visualization & Analytics
+matplotlib>=3.7.0
+seaborn>=0.12.0
+geopandas>=0.12.0
+folium>=0.14.0
+
+# Natural Language Processing & GenAI
+openai>=1.0.0
+pypdf2>=3.0.0
+python-docx>=0.8.11
+
+# Web & GUI Frameworks
+flask>=2.2.0
+jinja2>=3.1.0
+pygame>=2.5.0
