@@ -1,6 +1,6 @@
 # Applied AI and Data Science Portfolio
 
-A curated collection of production-grade Machine Learning, Deep Learning, Computer Vision, Generative AI, and Intelligent Systems projects. Developed and maintained by **Abdul Rehman Rattu** (Founder and CEO at Rapide Technologies).
+A curated collection of production-grade Machine Learning, Deep Learning, Computer Vision, Generative AI, and Intelligent Systems projects. Developed and maintained by **Abdul Rehman Rattu** (Founder and CEO at [Rapide Technologies](https://www.rapidetechnologies.com)).
 
 ---
 
@@ -151,6 +151,6 @@ pip install -r requirements.txt
 ## Author and Contact
 
 **Abdul Rehman Rattu**
-- Founder and CEO, [Rapide Technologies](https://github.com/Rapide-Tech-Org)
-- Email: [abdulrehmanrattu@gmail.com](mailto:abdulrehmanrattu@gmail.com)
+- Founder and CEO, [Rapide Technologies](https://www.rapidetechnologies.com)
+- Email: [rattu786.ar@gmail.com](mailto:rattu786.ar@gmail.com)
 - GitHub: [@AbdulRehmanRattu](https://github.com/AbdulRehmanRattu)
