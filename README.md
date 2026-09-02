@@ -1,8 +1,24 @@
 # Applied AI and Data Science Master Portfolio and Learning Roadmap
 
+<div align="center">
+
+[<img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License">](https://opensource.org/licenses/Apache-2.0)
+<img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB.svg?logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Vision-PyTorch%20%7C%20OpenCV-EE4C2C.svg?logo=pytorch&logoColor=white" alt="Vision">
+<img src="https://img.shields.io/badge/API-Flask-0052FF.svg?logo=flask&logoColor=white" alt="Flask">
+<img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg" alt="Status">
+
+**Enterprise-grade, high-performance implementation built and maintained by Abdul Rehman Rattu.**
+
+[Overview](#overview) • [Key Features](#key-features) • [Installation & Usage](#quickstart--usage) • [Author & Maintainer](#author--maintainer)
+
+</div>
+
+---
+
 A comprehensive, hands-on open-source curriculum and reference portfolio designed for **students, aspiring data scientists, and AI engineers** to learn, practice, and master real-world Machine Learning, Deep Learning, Computer Vision, Generative AI, and Intelligent Systems.
 
-Curated and maintained by **Abdul Rehman Rattu** (Founder and CEO at [Rapide Technologies](https://www.rapidetechnologies.com)).
+Curated and maintained by **Abdul Rehman Rattu** (Founder and CEO at [Rapide Technologies]()).
 
 ---
 
@@ -120,9 +136,14 @@ Contributions, bug reports, and pull requests from students, developers, and edu
 
 ---
 
-## Author and Contact
+---
 
-**Abdul Rehman Rattu**
-- Founder and CEO, [Rapide Technologies](https://www.rapidetechnologies.com)
-- Email: [rattu786.ar@gmail.com](mailto:rattu786.ar@gmail.com)
-- GitHub: [@AbdulRehmanRattu](https://github.com/AbdulRehmanRattu)
+## Author & Maintainer
+
+**Abdul Rehman Rattu**  
+*Forward Deployed AI Engineer & Solutions Architect*  
+*Founder & Technical Lead, Rapide Technologies*
+
+* **Email**: [rattu786.ar@gmail.com](mailto:rattu786.ar@gmail.com)
+* **LinkedIn**: [linkedin.com/in/abdul-rehman-rattu-395bba237](https://www.linkedin.com/in/abdul-rehman-rattu-395bba237)
+* **GitHub**: [github.com/AbdulRehmanRattu](https://github.com/AbdulRehmanRattu)
