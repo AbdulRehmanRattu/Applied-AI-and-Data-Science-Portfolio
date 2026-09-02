@@ -4,13 +4,14 @@
 
 [<img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License">](https://opensource.org/licenses/Apache-2.0)
 <img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB.svg?logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/Vision-PyTorch%20%7C%20OpenCV-EE4C2C.svg?logo=pytorch&logoColor=white" alt="Vision">
-<img src="https://img.shields.io/badge/API-Flask-0052FF.svg?logo=flask&logoColor=white" alt="Flask">
-<img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg" alt="Status">
+<img src="https://img.shields.io/badge/Deep%20Learning-PyTorch%20%7C%20TensorFlow-EE4C2C.svg?logo=pytorch&logoColor=white" alt="Deep Learning">
+<img src="https://img.shields.io/badge/Computer%20Vision-OpenCV%20%7C%20YOLOv8-5C3EE8.svg?logo=opencv&logoColor=white" alt="Computer Vision">
+<img src="https://img.shields.io/badge/NLP%20%26%20LLMs-Transformers%20%7C%20spaCy-FFD21E.svg?logo=huggingface&logoColor=black" alt="NLP & LLMs">
+<img src="https://img.shields.io/badge/Status-Master%20Curriculum-brightgreen.svg" alt="Status">
 
 **Enterprise-grade, high-performance implementation built and maintained by Abdul Rehman Rattu.**
 
-[Overview](#overview) • [Key Features](#key-features) • [Installation & Usage](#quickstart--usage) • [Author & Maintainer](#author--maintainer)
+[Overview](#overview) • [Key Features](#key-features) • [Installation & Usage](#quickstart--deployment) • [Author & Maintainer](#author--maintainer)
 
 </div>
 
@@ -133,6 +134,8 @@ Projects are organized into domain-specific category directories, each containin
 ## Community and Contributions
 
 Contributions, bug reports, and pull requests from students, developers, and educators are warmly welcomed. If you build upon any of these projects or use them in your learning journey, feel free to submit a pull request or share your findings!
+
+---
 
 ---
 
