@@ -101,19 +101,13 @@ Build from-scratch deep neural networks with matrix calculus, generative adversa
 
 ## 🏗️ Technical Architecture & Disciplines
 
-```
-                       ┌─────────────────────────────────────────────────────────┐
-                       │     Applied AI & Data Science Engineering Core          │
-                       └────────────────────────────┬────────────────────────────┘
-                                                    │
-         ┌──────────────────┬───────────────────────┼───────────────────────┬──────────────────┐
-         ▼                  ▼                       ▼                       ▼                  ▼
-[ Computer Vision ]  [ Deep Learning ]     [ NLP & LLMs ]            [ Time Series ]    [ Edge & Mobile ]
- - YOLOv5 (45 FPS)    - NumPy MLP Scratch   - FinBERT Sentiment       - SARIMAX          - Android Kotlin
- - Grad-CAM X-Ray     - PyTorch DCGAN       - Llama-3 (Ollama)        - Deep LSTM        - PyQt5 Desktop
- - CLAHE Enhancers    - SqueezeNet Edge     - BiLSTM-CRF NER          - Random Forest    - Flask REST APIs
- - Specimen Tracking  - Keras CNN Triage    - GPT-3.5 Orchestration   - XGBoost          - PyInstaller Binaries
-```
+<div align="center">
+
+![Applied AI Engineering Core Reference Architecture](assets/architecture_diagram.png)
+
+</div>
+
+The enterprise reference architecture organizes 24 applied systems into 5 cohesive core disciplines, spanning edge-deployed computer vision microservices, first-principles deep learning manifolds, production NLP/LLM orchestration, quantitative time-series forecasting, and cross-platform runtime systems.
 
 ---
 
