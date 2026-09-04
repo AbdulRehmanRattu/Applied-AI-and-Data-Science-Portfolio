@@ -28,37 +28,10 @@ Modern visual AI requires two complementary capabilities: synthesizing realistic
 
 ## System Architecture and Workflow
 
-```
-+-----------------------------------------------------------------------------------+
-| 1. DCGAN Generative Pipeline |
-| |
-| [ Latent Vector z ~ N(0, I) ] |
-| | |
-| v |
-| [ Generator: ConvTranspose2d -> BatchNorm -> LeakyReLU -> Tanh ] |
-| | |
-| +---> [ Synthesized Synthetic Images ] |
-| | |
-| [ Real Training Dataset ] ----> +---> [ Discriminator: Conv2d -> Sigmoid ] |
-| | |
-| [ Minimax Adversarial Loss ] |
-+-----------------------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------------------+
-| 2. SqueezeNet Edge Classifier Pipeline |
-| |
-| [ Input Image Batch ] |
-| | |
-| v |
-| [ Conv2d Initial Stem -> MaxPool2d ] |
-| | |
-| v |
-| [ Stacked Fire Modules: Squeeze (1x1) -> Expand (1x1 + 3x3) -> Concat ] |
-| | |
-| v |
-| [ Global Average Pooling -> Softmax Diagnostic Predictions ] |
-+-----------------------------------------------------------------------------------+
-```
+<div align="center">
+  <img src="plots/architecture_pipeline.png" alt="DCGAN and SqueezeNet Dual Pipeline Architecture" width="100%">
+  <p><em>Figure 1: End-to-End Deep Learning Architecture, detailing DCGAN latent synthesis and adversarial minimax training alongside parameter-efficient SqueezeNet Fire Module edge classification.</em></p>
+</div>
 
 ---
 

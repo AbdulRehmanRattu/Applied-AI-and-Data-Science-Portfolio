@@ -19,27 +19,10 @@ Adversarial game-playing requires decision agents to evaluate prospective game t
 
 The game engine separates pure game state logic from graphical presentation:
 
-```
- +--------------------------------+
- | Pygame GUI (runner.py) |
- +--------------------------------+
- |
- v
-+--------------------------------------------------------------------+
-| Game Engine (tictactoe.py) |
-| |
-| [ State Modeling ] [ Action Space ] [ Transitions ] |
-| initial_state() actions(board) result(board, a) |
-| |
-| [ Terminal Conditions ] [ Utility Value ] |
-| winner(board) / terminal(board) +1 (X) / -1 (O) |
-| |
-| +--------------------------------------------------------------+ |
-| | Recursive Minimax AI Engine | |
-| | max_value(board, alpha, beta) <-> min_value() | |
-| +--------------------------------------------------------------+ |
-+--------------------------------------------------------------------+
-```
+<div align="center">
+  <img src="plots/architecture_pipeline.png" alt="Tic-Tac-Toe Minimax Architectural Workflow" width="100%">
+  <p><em>Figure 1: Architectural Workflow and Game Loop for the Tic-Tac-Toe Unbeatable Minimax AI Engine, showing Pygame event dispatch, immutable state modeling, zero-sum utility evaluation, Alpha-Beta pruning recursion, and formal game-theoretic verification.</em></p>
+</div>
 
 ---
 

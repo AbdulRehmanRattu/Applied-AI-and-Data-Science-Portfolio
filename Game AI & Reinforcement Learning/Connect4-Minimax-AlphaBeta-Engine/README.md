@@ -17,27 +17,10 @@ Connect Four presents a discrete state space of over 4.5 trillion valid configur
 
 The game state loop coordinates user input, board state representation, adversarial search trees, and graphical rendering:
 
-```
-[ Pygame Event Loop / Human Input ]
- |
- v
-[ 6x7 Grid Board State (NumPy Array) ]
- |
- v
-[ Terminal State & Win Condition Evaluator ]
- |
- v
-[ Minimax Search with Alpha-Beta Branch Pruning ]
- |
- +--> [ Heuristic Sliding Window Scorer (Horizontal / Vertical / Diagonal) ]
- +--> [ Center-Column Positional Weighting ]
- |
- v
-[ Optimal Column Selection & Drop Animation ]
- |
- v
-[ Graphical View Render (Pygame Surface) ]
-```
+<div align="center">
+  <img src="plots/architecture_pipeline.png" alt="Connect-4 Minimax AI Engine Architecture" width="100%">
+  <p><em>Figure 1: Architectural Workflow and Game Loop for the Connect-4 Adversarial Minimax AI Engine, showing Pygame event dispatch, 6x7 NumPy state modeling, geometric 4-in-a-row terminal evaluation, Alpha-Beta pruning recursion, and sliding-window heuristic scoring.</em></p>
+</div>
 
 ---
 

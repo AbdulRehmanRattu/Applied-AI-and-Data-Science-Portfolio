@@ -24,27 +24,10 @@ Accelerating global climate change and land surface temperature volatility pose 
 
 ## System Architecture and Workflow
 
-```
-[ Global Climate Sensor Repositories (Global, Country, State, Major City Logs) ]
- |
- v
-[ Preprocessing, Anomaly Imputation & Geo-Spatial Normalization (cleaning.ipynb) ]
- |
- v
-+-------------------------------------------------------------------------------+
-| Multi-Paradigm Modeling Framework |
-| |
-| [ Statistical Time-Series ] [ Deep Sequence Forecasting ] |
-| - ARIMA / SARIMA Modeling - Multi-Layer LSTM Recurrent Networks |
-| - ACF / PACF Autocorrelation - Epoch Loss Convergence Modeling |
-| |
-| [ Geospatial Analytics ] [ Agricultural Impact Modeling ] |
-| - GeoPandas Surface Maps - Temperature vs. Crop Yield ($R^2$ Scaling)|
-+-------------------------------------------------------------------------------+
- |
- v
-[ Interactive Web Visualizations (Folium / city_map.html) & Policy Reporting ]
-```
+<div align="center">
+  <img src="plots/architecture_pipeline.png" alt="Global Climate Forecasting Architectural Pipeline" width="100%">
+  <p><em>Figure 1: End-to-End Climate Forecasting Architecture, illustrating multi-century sensor data normalization, multi-paradigm modeling (ARIMA, LSTM, geospatial mapping), and agricultural impact synthesis.</em></p>
+</div>
 
 ---
 
