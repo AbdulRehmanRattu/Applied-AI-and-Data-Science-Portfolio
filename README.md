@@ -17,17 +17,17 @@
 
 An enterprise-grade reference architecture, applied machine learning repository, and production engineering portfolio curated and maintained by **Abdul Rehman Rattu** (*Forward Deployed AI Engineer & Solutions Architect*). 
 
-This central repository unifies **24 production-grade AI systems, research models, and technical implementations** spanning Computer Vision, Deep Learning from first principles, Large Language Model orchestration, Quantitative Financial Time-Series, Adversarial Reinforcement Learning, and Mobile Edge Systems.
+This central repository unifies **34 production-grade AI systems, computational laboratories, and technical implementations** spanning Computer Vision, Physics-Informed Deep Learning, Large Language Model orchestration, Quantitative Financial Time-Series, Operations Research & Mixed-Integer Optimization, Adversarial Reinforcement Learning, and Mobile Edge Systems.
 
 ---
 
 ## Quick Navigation
 
-* 🚀 [Flagship Production Repositories (Standalone Systems)](#-flagship-production-repositories)
-* 📊 [Core Applied AI Competency Matrix (17 In-Repository Labs)](#-applied-ai-competency-matrix)
+* 🚀 [Flagship Production Repositories (16 Standalone Systems)](#-flagship-production-repositories)
+* 📊 [Core Applied AI Competency Matrix (18 In-Repository Labs)](#-applied-ai-competency-matrix)
   * [Level 1: Fundamentals & Classical ML](#level-1-fundamentals--classical-machine-learning)
   * [Level 2: Intermediate Diagnostic & Intelligent Systems](#level-2-intermediate-diagnostic--intelligent-systems)
-  * [Level 3: Advanced Deep Learning & Production Engineering](#level-3-advanced-deep-learning--production-engineering)
+  * [Level 3: Advanced Deep Learning & Computational Engineering](#level-3-advanced-deep-learning--computational-engineering)
 * 🏗️ [Technical Architecture & Disciplines](#-technical-architecture--disciplines)
 * ⚙️ [Installation & Environment Setup](#-installation--environment-setup)
 * 💡 [Frequently Asked Questions (AEO / GEO Knowledge Schema)](#-frequently-asked-questions)
@@ -41,6 +41,15 @@ The following standalone repositories represent end-to-end production AI applica
 
 | System | Primary Domain | Core Tech Stack | Verified Metric / Performance | Standalone Repository |
 | :--- | :--- | :--- | :--- | :--- |
+| **High Tight Flag Momentum Screener** | Quantitative Finance & Algorithmic Trading | Python, Pandas, Matplotlib, Rolling OLS, Vectorized Screening | **$R^2 \ge 0.90$** statistical gate, automated 8-stage momentum pattern confirmation across daily US equity feeds. | [AbdulRehmanRattu/algorithmic-trading-high-tight-flag-pattern-detector](https://github.com/AbdulRehmanRattu/algorithmic-trading-high-tight-flag-pattern-detector) |
+| **Conditional GAN Architectural Floorplan Synthesis** | Generative AI & Computer Vision | PyTorch 2.0, cGAN, Transpose2D, Inception Score | **256×256 RGB synthesis** conditioned on natural language room topologies with strict boundary partition enforcement. | [AbdulRehmanRattu/conditional-gan-architectural-floorplan-synthesis](https://github.com/AbdulRehmanRattu/conditional-gan-architectural-floorplan-synthesis) |
+| **Single Image Super-Resolution (SRCNN) Benchmark** | Computer Vision & Image Reconstruction | PyTorch 2.0, SRCNN, OpenCV, BSD100 Benchmark | **+4.69 dB PSNR gain** over Bicubic baseline across 100 benchmark test images from BSD100 under 4× downsampling. | [AbdulRehmanRattu/single-image-super-resolution-srcnn-benchmark](https://github.com/AbdulRehmanRattu/single-image-super-resolution-srcnn-benchmark) |
+| **RoboUber Multi-Agent Fleet Dispatch Simulator** | Multi-Agent Systems & Pathfinding | Python, Pygame, NetworkX, $A^*$ Search, Market Auctions | Decentralized profit-margin bidding, 32-junction urban grid, dynamic traffic congestion rerouting. | [AbdulRehmanRattu/robouber-multi-agent-fleet-simulation](https://github.com/AbdulRehmanRattu/robouber-multi-agent-fleet-simulation) |
+| **Spatial Multi-Agent Segregation & Emergence** | Spatial Simulation & Social Dynamics | Python, Matplotlib, Decision Trees, Schelling Dynamics | Emergent segregation ($S \ge 70\%$) from micro-motives, stochastic reflex agent optimization. | [AbdulRehmanRattu/multi-agent-spatial-simulation-and-emergence](https://github.com/AbdulRehmanRattu/multi-agent-spatial-simulation-and-emergence) |
+| **Granovetter Misinformation Contagion ABM** | Computational Social Science & Complex Networks | Mesa ABM, NetworkX, Watts-Strogatz Topology, Matplotlib | Simulating viral contagion thresholds and automated fact-checking interventions on small-world networks. | [AbdulRehmanRattu/granovetter-misinformation-spread-agent-simulation](https://github.com/AbdulRehmanRattu/granovetter-misinformation-spread-agent-simulation) |
+| **EV Fleet Transition & Location Optimization (MILP)** | Operations Research & Geospatial Optimization | Python, PuLP (CBC Solver), Folium GIS, Scikit-Learn | **100% municipal district coverage** within 5.0 km radius while decommissioning 60% of legacy petrol infrastructure. | [AbdulRehmanRattu/ev-fleet-facility-location-optimization-milp](https://github.com/AbdulRehmanRattu/ev-fleet-facility-location-optimization-milp) |
+| **Industrial Machinery Vibration Fault Diagnosis (LSTM)** | Predictive Maintenance & Industrial IoT | TensorFlow 2.x, Bidirectional LSTM, 1D-CNN, Self-Attention | **97.4% Classification Accuracy**, 0.993 ROC-AUC across 80,000 multi-axis accelerometer telemetry samples. | [AbdulRehmanRattu/industrial-machinery-vibration-fault-diagnosis-lstm](https://github.com/AbdulRehmanRattu/industrial-machinery-vibration-fault-diagnosis-lstm) |
+| **Modern Slavery Hidden Population Estimation (MSE)** | Applied Econometrics & Multiple Systems Estimation | R, MASS, Quasi-Poisson, Negative Binomial, QAIC | Log-linear dual/multiple systems modeling of dark figures across UK, Netherlands, and US administrative registries. | [AbdulRehmanRattu/modern-slavery-mse-econometric-estimation-r](https://github.com/AbdulRehmanRattu/modern-slavery-mse-econometric-estimation-r) |
 | **MediVision Multi-Disease Diagnostic System** | Healthcare & Diagnostic AI | MobileNetV2, PyTorch, Grad-CAM, Tkinter | **95.8% Accuracy** on Chest X-Ray & Skin Lesion classification with interpretability heatmaps. | [AbdulRehmanRattu/medivision-multi-disease-diagnostic-system](https://github.com/AbdulRehmanRattu/medivision-multi-disease-diagnostic-system) |
 | **DermaSense Real-Time Skin Pathology Engine** | Computer Vision & Edge AI | YOLOv5, PyTorch, OpenCV, PyQt5 | **mAP@0.5: 0.942**, 45+ FPS real-time acne and skin lesion bounding-box telemetry. | [AbdulRehmanRattu/dermasense-realtime-skin-pathology-yolov5](https://github.com/AbdulRehmanRattu/dermasense-realtime-skin-pathology-yolov5) |
 | **Real-Time Fire & Smoke Detection Engine** | Safety Vision & Hazard Telemetry | YOLOv5s, PyTorch, OpenCV, Threaded Video | **mAP@0.5: 0.897**, 60+ FPS dual-class industrial hazard detection and early warning alerts. | [AbdulRehmanRattu/realtime-fire-and-smoke-detection-yolov5](https://github.com/AbdulRehmanRattu/realtime-fire-and-smoke-detection-yolov5) |
@@ -53,7 +62,7 @@ The following standalone repositories represent end-to-end production AI applica
 
 ## 📊 Applied AI Competency Matrix
 
-This repository houses **17 self-contained, reproducible engineering modules** organized into a progressive 3-level mastery framework:
+This repository houses **18 self-contained, reproducible engineering modules** organized into a progressive 3-level mastery framework:
 
 ### Level 1: Fundamentals & Classical Machine Learning
 
@@ -84,9 +93,9 @@ Develop robust diagnostic pipelines, non-linear ensemble models, computer vision
 
 ---
 
-### Level 3: Advanced Deep Learning & Production Engineering
+### Level 3: Advanced Deep Learning & Computational Engineering
 
-Build from-scratch deep neural networks with matrix calculus, generative adversarial vision, multi-century recurrent sequence forecasting, full-stack web applications, and native mobile platforms.
+Build from-scratch deep neural networks with matrix calculus, physics-informed surrogate modeling, generative adversarial vision, multi-century recurrent sequence forecasting, full-stack web applications, and native mobile platforms.
 
 | # | Project | What You Will Learn | Category | Verified Metric / Outcome | Local Source |
 | :---: | :--- | :--- | :--- | :--- | :--- |
@@ -96,6 +105,7 @@ Build from-scratch deep neural networks with matrix calculus, generative adversa
 | 15 | **DCGAN Synthesis & SqueezeNet Vision** | PyTorch DCGAN (50,000 steps), SLERP latent manifold interpolation, Fire-module SqueezeNet edge classifier. | Deep Learning | DCGAN photorealistic synthesis + edge-optimized SqueezeNet classifier (<4.8MB footprint). | [`Deep Learning/DCGAN-Synthesis-and-SqueezeNet-Vision/`](Deep%20Learning/DCGAN-Synthesis-and-SqueezeNet-Vision/) |
 | 16 | **Global Climate Temperature Forecasting** | Multi-century sensor data harmonization (1750 to present), seasonal ARIMA decomposition, Deep LSTM. | Time Series | ARIMA + Deep LSTM planetary climate forecasting + GeoPandas agricultural yield regression. | [`Time Series/Global-Climate-Temperature-Forecasting/`](Time%20Series/Global-Climate-Temperature-Forecasting/) |
 | 17 | **Smart GP Community Android App** | Native Android MVVM architecture, Kotlin Coroutines, Jetpack components, clean service layers. | Mobile Engineering | Production-ready Android telehealth application (doctor directory, appointment booking, auth). | [`Mobile & Systems Engineering/Smart-GP-Community-Android-Telehealth-App/`](Mobile%20%26%20Systems%20Engineering/Smart-GP-Community-Android-Telehealth-App/) |
+| 18 | **Metacell Inverse Design & Phase Shift Optimization** | Physics-informed surrogate modeling, dual forward/inverse PyTorch networks, 1,500x acceleration over CST 3D solvers. | Deep Learning | Forward $\|S_{21}\|$ $R^2 = 0.932$, Phase $R^2 = 0.705$, Phase-shift span extended to $420^\circ$. | [`Deep Learning/Metacell-Inverse-Design-Neural-Network/`](Deep%20Learning/Metacell-Inverse-Design-Neural-Network/) |
 
 ---
 
@@ -107,7 +117,7 @@ Build from-scratch deep neural networks with matrix calculus, generative adversa
 
 </div>
 
-The enterprise reference architecture organizes 24 applied systems into 5 cohesive core disciplines, spanning edge-deployed computer vision microservices, first-principles deep learning manifolds, production NLP/LLM orchestration, quantitative time-series forecasting, and cross-platform runtime systems.
+The enterprise reference architecture organizes **34 applied systems** into 6 cohesive core disciplines, spanning edge-deployed computer vision microservices, physics-informed surrogate deep learning manifolds, operations research & mixed-integer optimization, production NLP/LLM orchestration, quantitative time-series forecasting, and cross-platform runtime systems.
 
 ---
 
@@ -155,20 +165,17 @@ Yes. All algorithms are optimized for efficient local execution. Classical ML an
 
 <details>
 <summary><b>4. How are the standalone flagship repositories related to this master portfolio?</b></summary>
-The 7 standalone repositories represent end-to-end commercial solutions with standalone UI interfaces, API servers, and dedicated documentation. This master portfolio acts as the central hub and comprehensive engineering curriculum uniting both the standalone flagship systems and the 17 core research laboratories.
+The 16 standalone repositories represent end-to-end production AI applications engineered with standalone UI interfaces, API microservices, containerized deployment pipelines, and empirical benchmark evaluations. This master portfolio acts as the central hub and comprehensive engineering curriculum uniting both the 16 standalone flagship systems and the 18 core in-repository research laboratories (34 total systems).
 </details>
 
 ---
 
-## Author & Maintainer
+## 👤 Author & Maintainer
 
-**Abdul Rehman Rattu**  
-*Forward Deployed AI Engineer & Solutions Architect*  
-*Founder & Technical Lead, Rapide Technologies*
-
-* **Email**: [rattu786.ar@gmail.com](mailto:rattu786.ar@gmail.com)
-* **LinkedIn**: [linkedin.com/in/abdul-rehman-rattu-395bba237](https://www.linkedin.com/in/abdul-rehman-rattu-395bba237)
+* **Maintainer**: **Abdul Rehman Rattu**
+* **Role**: Forward Deployed AI Engineer & Solutions Architect
 * **GitHub**: [github.com/AbdulRehmanRattu](https://github.com/AbdulRehmanRattu)
+* **LinkedIn**: [linkedin.com/in/abdul-rehman-rattu-395bba237](https://www.linkedin.com/in/abdul-rehman-rattu-395bba237)
 
 ---
 
