@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.egg-info/
+venv/
+.env/
+camera_cal/calibration_cache.npz
+data/*_annotated.*
+data/batch_output/
