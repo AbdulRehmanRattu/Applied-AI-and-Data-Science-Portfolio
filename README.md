@@ -17,14 +17,14 @@
 
 An enterprise-grade reference architecture, applied machine learning repository, and production engineering portfolio curated and maintained by **Abdul Rehman Rattu** (*Forward Deployed AI Engineer & Solutions Architect*). 
 
-This central repository unifies **35 production-grade AI systems, computational laboratories, and technical implementations** spanning Computer Vision & Autonomous Driving Perception, Physics-Informed Deep Learning, Large Language Model orchestration, Quantitative Financial Time-Series, Operations Research & Mixed-Integer Optimization, Adversarial Reinforcement Learning, and Mobile Edge Systems.
+This central repository unifies **36 production-grade AI systems, computational laboratories, and technical implementations** spanning Computer Vision & Autonomous Driving Perception, Deep Reinforcement Learning with Binary SumTrees, Physics-Informed Deep Learning, Large Language Model orchestration, Quantitative Financial Time-Series, Operations Research & Mixed-Integer Optimization, and Mobile Edge Systems.
 
 ---
 
 ## Quick Navigation
 
 * 🚀 [Flagship Production Repositories (16 Standalone Systems)](#-flagship-production-repositories)
-* 📊 [Core Applied AI Competency Matrix (19 In-Repository Labs)](#-applied-ai-competency-matrix)
+* 📊 [Core Applied AI Competency Matrix (20 In-Repository Labs)](#-applied-ai-competency-matrix)
   * [Level 1: Fundamentals & Classical ML](#level-1-fundamentals--classical-machine-learning)
   * [Level 2: Intermediate Diagnostic & Intelligent Systems](#level-2-intermediate-diagnostic--intelligent-systems)
   * [Level 3: Advanced Deep Learning & Computational Engineering](#level-3-advanced-deep-learning--computational-engineering)
@@ -62,7 +62,7 @@ The following standalone repositories represent end-to-end production AI applica
 
 ## 📊 Applied AI Competency Matrix
 
-This repository houses **19 self-contained, reproducible engineering modules** organized into a progressive 3-level mastery framework:
+This repository houses **20 self-contained, reproducible engineering modules** organized into a progressive 3-level mastery framework:
 
 ### Level 1: Fundamentals & Classical Machine Learning
 
@@ -95,7 +95,7 @@ Develop robust diagnostic pipelines, non-linear ensemble models, computer vision
 
 ### Level 3: Advanced Deep Learning & Computational Engineering
 
-Build from-scratch deep neural networks with matrix calculus, physics-informed surrogate modeling, generative adversarial vision, multi-century recurrent sequence forecasting, full-stack web applications, and native mobile platforms.
+Build from-scratch deep neural networks with matrix calculus, physics-informed surrogate modeling, generative adversarial vision, multi-century recurrent sequence forecasting, autonomous driving perception, deep reinforcement learning, full-stack web applications, and native mobile platforms.
 
 | # | Project | What You Will Learn | Category | Verified Metric / Outcome | Local Source |
 | :---: | :--- | :--- | :--- | :--- | :--- |
@@ -107,6 +107,7 @@ Build from-scratch deep neural networks with matrix calculus, physics-informed s
 | 17 | **Smart GP Community Android App** | Native Android MVVM architecture, Kotlin Coroutines, Jetpack components, clean service layers. | Mobile Engineering | Production-ready Android telehealth application (doctor directory, appointment booking, auth). | [`Mobile & Systems Engineering/Smart-GP-Community-Android-Telehealth-App/`](Mobile%20%26%20Systems%20Engineering/Smart-GP-Community-Android-Telehealth-App/) |
 | 18 | **Metacell Inverse Design & Phase Shift Optimization** | Physics-informed surrogate modeling, dual forward/inverse PyTorch networks, 1,500x acceleration over CST 3D solvers. | Deep Learning | Forward $\|S_{21}\|$ $R^2 = 0.932$, Phase $R^2 = 0.705$, Phase-shift span extended to $420^\circ$. | [`Deep Learning/Metacell-Inverse-Design-Neural-Network/`](Deep%20Learning/Metacell-Inverse-Design-Neural-Network/) |
 | 19 | **Autonomous Vehicle Curved Lane Line Detection** | Self-driving perception, camera intrinsic calibration, inverse perspective mapping, sliding-window polynomial tracking. | Computer Vision | Real-time **30.0+ FPS**, $<0.18\text{ px}$ calibration error, metric road curvature radius, lateral departure offset, HUD overlay. | [`Computer Vision/Autonomous-Vehicle-Curved-Lane-Line-Detection/`](Computer%20Vision/Autonomous-Vehicle-Curved-Lane-Line-Detection/) |
+| 20 | **Deep Reinforcement Learning Suite (DQN, DDQN, PER)** | Value-based Deep RL, decoupled target Q-learning, Binary SumTree prioritized experience replay, reward shaping. | Game AI & RL | CartPole-v1: **194.17 100-Ep Rolling Avg** ($R \ge 200$), MountainCar-v0: **+0.531 Max Pos**, 142 steps to flag, Tkinter live Q-value GUI. | [`Game AI & Reinforcement Learning/Deep-Q-Networks-DQN-DDQN-PER/`](Game%20AI%20%26%20Reinforcement%20Learning/Deep-Q-Networks-DQN-DDQN-PER/) |
 
 ---
 
@@ -118,7 +119,7 @@ Build from-scratch deep neural networks with matrix calculus, physics-informed s
 
 </div>
 
-The enterprise reference architecture organizes **35 applied systems** into 6 cohesive core disciplines, spanning edge-deployed computer vision microservices, autonomous vehicle perception pipelines, physics-informed surrogate deep learning manifolds, operations research & mixed-integer optimization, production NLP/LLM orchestration, quantitative time-series forecasting, and cross-platform runtime systems.
+The enterprise reference architecture organizes **36 applied systems** into 6 cohesive core disciplines, spanning edge-deployed computer vision microservices, autonomous vehicle perception pipelines, physics-informed surrogate deep learning manifolds, operations research & mixed-integer optimization, production NLP/LLM orchestration, quantitative time-series forecasting, and cross-platform runtime systems.
 
 ---
 
@@ -143,6 +144,7 @@ Every module contains its own dedicated dependencies and self-contained entry po
 * **Jupyter Notebooks**: Launch `jupyter notebook` and navigate to any subfolder.
 * **Flask Web Applications**: Navigate to `Classification/Credit-Card-Fraud-Detection-Flask/` and run `python app.py`.
 * **Pygame Game AI**: Navigate to `Game AI & Reinforcement Learning/Connect4-Minimax-AlphaBeta-Engine/` and run `python connect4.py`.
+* **Deep RL Autonomous Controllers**: Navigate to `Game AI & Reinforcement Learning/Deep-Q-Networks-DQN-DDQN-PER/` and run `python run_pipeline.py --mode benchmark` or `python gui_app.py`.
 * **Standalone Repositories**: Follow the individual clone and launch instructions on each dedicated project page.
 
 ---
@@ -166,7 +168,7 @@ Yes. All algorithms are optimized for efficient local execution. Classical ML an
 
 <details>
 <summary><b>4. How are the standalone flagship repositories related to this master portfolio?</b></summary>
-The 16 standalone repositories represent end-to-end production AI applications engineered with standalone UI interfaces, API microservices, containerized deployment pipelines, and empirical benchmark evaluations. This master portfolio acts as the central hub and comprehensive engineering curriculum uniting both the 16 standalone flagship systems and the 19 core in-repository research laboratories (35 total systems).
+The 16 standalone repositories represent end-to-end production AI applications engineered with standalone UI interfaces, API microservices, containerized deployment pipelines, and empirical benchmark evaluations. This master portfolio acts as the central hub and comprehensive engineering curriculum uniting both the 16 standalone flagship systems and the 20 core in-repository research laboratories (36 total systems).
 </details>
 
 ---
