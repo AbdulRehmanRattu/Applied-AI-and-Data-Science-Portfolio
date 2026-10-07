@@ -17,14 +17,14 @@
 
 A curated portfolio of applied machine learning architectures, deep learning models, and production data engineering pipelines by **Abdul Rehman Rattu**. 
 
-This central repository unifies **37 production-grade AI systems, computational laboratories, and technical implementations** spanning Computer Vision & Autonomous Driving Perception, Deep Reinforcement Learning with Binary SumTrees, Physics-Informed Deep Learning, Large Language Model orchestration, Quantitative Financial Time-Series, Operations Research & Mixed-Integer Optimization, and Mobile Edge Systems.
+This central repository unifies **39 production-grade AI systems, computational laboratories, and technical implementations** spanning Computer Vision & Autonomous Driving Perception, Deep Reinforcement Learning with Binary SumTrees, Physics-Informed Deep Learning, Large Language Model orchestration, Quantitative Financial Time-Series, Operations Research & Mixed-Integer Optimization, and Mobile Edge Systems.
 
 ---
 
 ## Quick Navigation
 
-* 🚀 [Flagship Production Repositories (16 Standalone Systems)](#-flagship-production-repositories)
-* 📊 [Core Applied AI Competency Matrix (21 In-Repository Labs)](#-applied-ai-competency-matrix)
+* 🚀 [Flagship Production Repositories (17 Standalone Systems)](#-flagship-production-repositories)
+* 📊 [Core Applied AI Competency Matrix (22 In-Repository Labs)](#-applied-ai-competency-matrix)
   * [Level 1: Fundamentals & Classical ML](#level-1-fundamentals--classical-machine-learning)
   * [Level 2: Intermediate Diagnostic & Intelligent Systems](#level-2-intermediate-diagnostic--intelligent-systems)
   * [Level 3: Advanced Deep Learning & Computational Engineering](#level-3-advanced-deep-learning--computational-engineering)
@@ -57,12 +57,13 @@ The following standalone repositories represent end-to-end production AI applica
 | **Hotel Operations NER Extraction Engine** | Information Extraction & Automation | BiLSTM + CRF, spaCy, FastAPI, Scikit-Learn | **F1-Score: 0.934**, automated unstructured guest reservation parsing into strict JSON schemas. | [AbdulRehmanRattu/hotel-operations-ner-extraction-engine](https://github.com/AbdulRehmanRattu/hotel-operations-ner-extraction-engine) |
 | **Clinical Symptom Chatbot & Triage Assistant** | Clinical NLP & Multimodal Vision | Keras Deep CNN, PyQt5, Tesseract OCR, FPDF | Deep CNN pneumonia screening (`model_95.h5`) integrated with interactive triage dialogue and PDF report compiler. | [AbdulRehmanRattu/clinical-symptom-chatbot-assistant](https://github.com/AbdulRehmanRattu/clinical-symptom-chatbot-assistant) |
 | **London Transit Bike Demand Regressor** | Time-Series & Urban Transit | Random Forest, XGBoost, Scikit-Learn, Pandas | **$R^2 = 0.914$**, $\text{MAE} = 128.4$, multi-million Transport for London journey and weather regression. | [AbdulRehmanRattu/london-transit-bike-demand-regressor](https://github.com/AbdulRehmanRattu/london-transit-bike-demand-regressor) |
+| **London Underground Transit Network Optimization** | Graph Theory & Urban Infrastructure | Python, NetworkX, Priority Queues, Disjoint-Set Union-Find, Matplotlib | Dijkstra min-heap pathfinding, Kruskal MST, sentinel DLLs, real TfL Tube topology. | [AbdulRehmanRattu/london-underground-transit-network-optimization](https://github.com/AbdulRehmanRattu/london-underground-transit-network-optimization) |
 
 ---
 
 ## 📊 Applied AI Competency Matrix
 
-This repository houses **20 self-contained, reproducible engineering modules** organized into a progressive 3-level mastery framework:
+This repository houses **22 self-contained, reproducible engineering modules** organized into a progressive 3-level mastery framework:
 
 ### Level 1: Fundamentals & Classical Machine Learning
 
@@ -109,6 +110,7 @@ Build from-scratch deep neural networks with matrix calculus, physics-informed s
 | 19 | **Autonomous Vehicle Curved Lane Line Detection** | Self-driving perception, camera intrinsic calibration, inverse perspective mapping, sliding-window polynomial tracking. | Computer Vision | Real-time **30.0+ FPS**, $<0.18\text{ px}$ calibration error, metric road curvature radius, lateral departure offset, HUD overlay. | [`Computer Vision/Autonomous-Vehicle-Curved-Lane-Line-Detection/`](Computer%20Vision/Autonomous-Vehicle-Curved-Lane-Line-Detection/) |
 | 20 | **Deep Reinforcement Learning Suite (DQN, DDQN, PER)** | Value-based Deep RL, decoupled target Q-learning, Binary SumTree prioritized experience replay, reward shaping. | Game AI & RL | CartPole-v1: **194.17 100-Ep Rolling Avg** ($R \ge 200$), MountainCar-v0: **+0.531 Max Pos**, 142 steps to flag, Tkinter live Q-value GUI. | [`Game AI & Reinforcement Learning/Deep-Q-Networks-DQN-DDQN-PER/`](Game%20AI%20%26%20Reinforcement%20Learning/Deep-Q-Networks-DQN-DDQN-PER/) |
 | 21 | **MEG Neural Source Localization** | Maxwell biophysical forward modeling ($x = Lz + n$), subject lead-field projection, Lasso-Lars $L_1$ sparse inversion, PyTorch MEGNet + Optuna. | Deep Learning | Lasso-Lars: **Jaccard Error 0.6586** ($\alpha = 0.5$), PyTorch MEGNet: **0.8123** error, 450 cortical regions across 10 human subjects. | [`Deep Learning/MEG-Neural-Source-Localization/`](Deep%20Learning/MEG-Neural-Source-Localization/) |
+| 22 | **Deep Denoising & Blind Inpainting Autoencoders** | Unsupervised convolutional autoencoders, Gaussian noise suppression, blind spatial occlusion inpainting, latent manifold bottleneck. | Deep Learning | Spatial Inpainting: **22.08 dB PSNR, 0.885 SSIM** (MSE 0.0062), Gaussian Denoising: **20.91 dB PSNR, 0.842 SSIM** on CIFAR-10. | [`Deep Learning/Deep-Denoising-and-Inpainting-Autoencoders/`](Deep%20Learning/Deep-Denoising-and-Inpainting-Autoencoders/) |
 
 ---
 
@@ -120,7 +122,7 @@ Build from-scratch deep neural networks with matrix calculus, physics-informed s
 
 </div>
 
-The enterprise reference architecture organizes **37 applied systems** into 6 cohesive core disciplines, spanning edge-deployed computer vision microservices, autonomous vehicle perception pipelines, physics-informed surrogate deep learning manifolds, operations research & mixed-integer optimization, production NLP/LLM orchestration, quantitative time-series forecasting, and cross-platform runtime systems.
+The enterprise reference architecture organizes **39 applied systems** into 6 cohesive core disciplines, spanning edge-deployed computer vision microservices, autonomous vehicle perception pipelines, physics-informed surrogate deep learning manifolds, operations research & mixed-integer optimization, production NLP/LLM orchestration, quantitative time-series forecasting, and cross-platform runtime systems.
 
 ---
 
@@ -169,7 +171,7 @@ Yes. All algorithms are optimized for efficient local execution. Classical ML an
 
 <details>
 <summary><b>4. How are the standalone flagship repositories related to this master portfolio?</b></summary>
-The 16 standalone repositories represent end-to-end production AI applications engineered with standalone UI interfaces, API microservices, containerized deployment pipelines, and empirical benchmark evaluations. This master portfolio acts as the central hub and comprehensive engineering curriculum uniting both the 16 standalone flagship systems and the 21 core in-repository research laboratories (37 total systems).
+The 17 standalone repositories represent end-to-end production AI applications engineered with standalone UI interfaces, API microservices, containerized deployment pipelines, and empirical benchmark evaluations. This master portfolio acts as the central hub and comprehensive engineering curriculum uniting both the 17 standalone flagship systems and the 22 core in-repository research laboratories (39 total systems).
 </details>
 
 ---

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.DS_Store
+.ipynb_checkpoints/
+autoencoder_tuning/
+autoencoder_occlusion_tuning/
+*.h5
+*.keras
+.venv/
+venv/
+env/
